@@ -1,0 +1,128 @@
+nav {
+  border-top: 2px solid purple;
+  display: flex;
+  justify-content: center;
+  border-bottom: 0.5px solid black;
+  width: 100%;
+}
+
+a {
+  margin: 5px;
+  padding: 10px;
+  color: gray;
+  text-decoration: none;
+  flex: 1;
+}
+
+a:hover {
+  color: purple;
+}
+
+section {
+  display: flex;
+  justify-content: space-around;
+}
+
+div {
+  margin: 5px;
+  padding: 10px;
+  color: black;
+}
+
+ul {
+  list-style: none;
+  padding-right: 35px;
+}
+
+.pfp {
+  display: flex;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+th, td {
+  padding: 10px;
+  justify-content: center;
+  text-align: center;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.caption {
+  text-align: center;
+  font-size: large;
+}
+
+.caption2 {
+  text-align: center;
+  font-size: medium;
+}
+
+.caption3 {
+  text-align: center;
+  font-size: small;
+}
+
+div {
+  margin: 10px;
+}
+
+.pfp {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 1px solid black;
+  justify-content: center;
+  margin: auto;
+}
+
+.left {
+  width: 25%;
+  text-align: center;
+}
+
+.right {
+  width: 50%;
+  border-left: 0.5px solid black;
+  text-align: center;
+}
+
+footer {
+  position: relative;
+  top: 100px;
+  width: 100%;
+  color: gray;
+  text-align: center;
+  background-color: rgb(237, 237, 240);
+  height: 80px;
+  margin: 0;
+  padding: 0;
+}
+
+.foot {
+  padding-top: 15px;
+}
+
+@media screen and (max-width: 600px) {
+
+  section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .left {
+    border-bottom: 100%;
+    width: auto;
+  }
+
+  .right {
+    border-top: 0.5px solid black;
+    border-left: 0;
+    width: 100%;
+  }
+}
